@@ -1,2 +1,29 @@
-<img src="{{ uploaded_image.image.url }}" alt="Uploaded Image">
-<p>Classification Result: {{ uploaded_image.result }}</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #343a40;
+            color: #f8f9fa;
+        }
+        .card {
+            background-color: #495057;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="card">
+            <div class="card-body text-center">
+                <h2 class="card-title">Prediction Result</h2>
+                <p class="card-text">Predicted Class: <strong>{{ prediction }}</strong></p>
+                <a href="/" class="btn btn-primary">Classify Another Image</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
