@@ -16,7 +16,7 @@ https://github.com/jakubiwaszkiewicz/mentsiv2
 ### 1. Clone the Repository
 
 ```sh
-git clone [https://github.com/yourusername/projectname.git](https://github.com/dawid31/doggies-and-kittens-classification
+git clone https://github.com/dawid31/doggies-and-kittens-classification
 cd doggies-and-kittens-classification
 ```
 
